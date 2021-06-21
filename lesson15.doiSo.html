@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tăng đối số</title>
+</head>
+<body>
+<input id = "tangdoiso" type="number" oninput="tangdoiso1();"/>
+<p><span id = "sotang"></span></p>
+<script>
+    function tangdoiso1(){
+        let doiso = +document.getElementById("tangdoiso").value +1;
+        document.getElementById("sotang").innerText = doiso + " Đối Số tăng lên";
+    }
+</script>
+</body>
+</html>
